@@ -15730,7 +15730,7 @@ var view=document.getElementById('view-main');var scrollbar=smooth_scrollbar__WE
 (function(){var container=document.querySelector('.cb-demo');var content=container.querySelector('.cb-demo-content');var tl=new gsap__WEBPACK_IMPORTED_MODULE_3__["default"].timeline({scrollTrigger:{trigger:container,scrub:true,start:"bottom center"}});tl.to(content,{y:"50%",skewY:3,duration:1,ease:"none"},0);tl.to(content,{opacity:0,duration:0.5,ease:"none"},0);})();// Sequence trigger animation
 (function(){// generate array of images paths. length = frames length, see: /src/assets/img
 // const urls = [...new Array(162)].map((value, index) => `/img/${(index + 1)}.jpg`);
-var urls=[];for(var i=1;i<=14;i++){urls.push("/img/"+i+".png");}// load images async
+var urls=[];for(var i=1;i<=1140;i++){urls.push("/img/"+i+".png");}// load images async
 var images=Object(utills__WEBPACK_IMPORTED_MODULE_4__["preloadImages"])(urls);var container=document.querySelector('.cb-sequence');var canvas=container.querySelector('canvas');var ctx=canvas.getContext('2d');// create "scrub" ScrollTrigger effect with pin of main block
 // pinType: transform is required when use pin with smooth scrollbar
 var tl=new gsap__WEBPACK_IMPORTED_MODULE_3__["default"].timeline({scrollTrigger:{trigger:container,scrub:true,start:"top top",end:"200%",// scene duration
